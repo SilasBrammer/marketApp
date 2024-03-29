@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "marketApp",
-    "slug": "marketApp",
+    "name": "Fiction Market App",
+    "slug": "market-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
