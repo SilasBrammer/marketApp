@@ -58,12 +58,6 @@ const updateNumber = async (increment) => {
   }
 };
 
-const resetNumber = async () => {
-  const getNum = await retrieveNumber();
-  const inverseNum = getNum * -1;
-  await updateNumber(inverseNum);
-}
-
 const toPage1 = async () => {
   setPage1('block');
   setPage2('none');
@@ -117,7 +111,7 @@ useEffect(() => {
 
           </TouchableHighlight>
 
-          <TouchableHighlight onPress={() => resetNumber()}>
+          <TouchableHighlight onPress={() => saveNumber(0)}>
 
             <View style={styles.button2}>
 
